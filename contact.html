@@ -4,7 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contacts
-
+<meta name="description" content="A one-sentence 150-char summary specific to this
+page.">
+<link rel="canonical" href="https://YOUR-DOMAIN.com/index.html">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Home | Your Name">
+<meta property="og:description" content="Same as meta description or slightly shorter.">
+<meta property="og:image" content="https://YOUR-DOMAIN.com/assets/hero-md.jpg">
+<meta property="og:url" content="https://YOUR-DOMAIN.com/index.html">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
 </title>
 </head>
 <body>
@@ -22,6 +32,31 @@
     <ADdress></ADdress>Slida Phase 2 Calong calong zone 1 Brgy. Singcang Airport Bacolod City
     <a
 href="mailto:...">. Kenregala0961@gmail.com
+<section>
+    <form action="#" method="POST">
+<fieldset>
+<legend>Contact me</legend>
+<p>
+<label for="name">Full name</label>
+<input type="text" id="name" name="name" required minlength="2">
+</p>
+<p>
+<label for="email">Email address</label>
+<input type="email" id="email" name="email" required>
+</p>
+<p>
+<label for="phone">Phone (optional)</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9\-\s]{7,}">
+</p>
+<p>
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="5" required></textarea>
+</p>
+<p>
+<button type="submit">Send</button>
+</p>
+</fieldset>
+</form>
 
 <article>
 <h2>Welcome</h2>
